@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+
+        
+
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(228, 228, 228);
+        }
+
+        header {
+            background-color: rgb(128, 128, 128);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        a{
+  text-decoration: none;
+  color: #0074D9;
+}
+
+.underline{
+  position: relative;
+}
+
+.underline::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0074D9;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1> DEEPANSHU</h1>
+        <p>Web Developer</p>
+    </header>
+    
+    <div class="container">
+        <div class="wrapper">
+        <div>
+            <h2>Contact Information</h2>
+            <p>Email: deepanshusaini80592@gmail.com </p>
+            <p>Phone: +91 8059243582 </p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/deepanshu-saini-043a45276/" class="underline"> linkedin.in/deepanshu</a></p>
+            </div>
+            <div>
+           <!-- // <img src="photo1.jpg " height="200px" width="200px"> -->
+            </div> 
+        </div>
+        <h2> Objectives </h2>
+        <p>Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change.</p>
+
+        <h2> Education </h2>
+        <p><b>JMIT Radaur</b></p>
+         <p>B.Tech : 2021-25</p>
+         <br>
+        <p><b>Saini Public School, Kurukshetra </b></p>
+        <p> 12th : 2021 </p>
+        <p> 10th : 2019 </p>
+        <!-- <p> Percentage - 86% </p> -->
+        
+        <h2>Skills</h2>
+        <ul>
+            <li>C++</li>
+            <li>C</li>
+            <li>DSA</li>
+            <li>HTML </li> 
+            <li>CSS </li>
+            <li>JAVASCRIPT</li>
+            <li>JAVA</li>
+        </ul> 
+        <br>
+        <h2>Certification</h2>
+        <ul>
+            <li> Front Web Development - Oops Info Solutions </li>
+            <li> C Language - Aggarwal Computer Coaching center </li>
+        </ul> 
+         <h2> Projects </h2>
+        <ul class="liks">
+            <li><a href="https://deepanshu8689.github.io/weather/" class="underline">Weather App</a></li>
+            <li><a href="https://deepanshu8689.github.io/to-do/" class="underline">To-Do App</a></li>
+            <li><a href="https://calculator8689.netlify.app/" class="underline">Calculator App</a></li>
+            
+        </ul> 
+    </div>
+</body>
+</html>
